@@ -27,7 +27,7 @@ nav a{
 	color: #65625D;
 	line-height: 60px;
 	display: inline-block;
-	padding-left: 15px;
+	padding-left: 100px;
 }
 
 
@@ -39,14 +39,6 @@ nav li{
 	letter-spacing: 3px;
 }
 
-nav li ul {
-	position: absolute;
-	display: none;
-	width: inherit;
-	letter-spacing: 3px;
-}
-
-
 nav li li{
 	border-right: none;
 }
@@ -57,7 +49,19 @@ nav li ul{
 	position:absolute;
 	display:none;
 	width:inherit;
+	letter-spacing: 3px;
+	background-color: #f4f4f4;
+	color: #e5e5e5;
+	padding: 6px 10px;
+	font-size: 11px;
+	min-width: 170px;
+	line-height: 20px;
+	transition: .25s;
+	border-top: none;
+	border-color: #e5e5e5;
+	border-bottom: 1px solid;
 }
+
 nav li:hover ul{
 	display:block;
 }
@@ -85,13 +89,6 @@ nav li ul li{
 	float: right;
 }
 
-.kopfbereich {
-	max-width: 10%;
-	height: auto;
-	border: 2px;
-	margin-top: 2%;
-	text-align: center;
-}
 .seite {
 	max-width: 50%;
 	height: auto;
@@ -133,7 +130,11 @@ nav li ul li{
 	border-radius: 0;
 	margin-top: 0;
 }
-
+.subscribe-box input.email{
+	background: #FFFFFF;
+	color: #95AF7E;
+}
+ 
 .signup{
 	width: 100%;
 	margin-left: 0;
@@ -152,6 +153,9 @@ nav li ul li{
 	width: 100%;
 	text-align: center;
 }
+.bild{
+	flex-direction: row;
+}
 p{
 	display: block;
 	-webkit-margin-before:1em;
@@ -163,4 +167,25 @@ p{
 	font-size: 14px;
 	font-height: 24px;
 	font-family: "Arial", sans-serif;
+}
+
+.row, header {
+	display: flex;
+}
+.column {
+	flex: 33.33%;
+	padding: 5px;
+}
+.column img {
+	width: 100%
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.Hauptteil {
+	display: flex;
+	height: 200px;
+	align-items: center;
 }
