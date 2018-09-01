@@ -1,0 +1,166 @@
+head{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height:1.5;
+	color:#545454;
+}
+h1, h2, h3{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height:1.5;
+	color:#545454;
+}
+.subscribe-box h4{
+	text-transform: uppercase;
+	color: #333;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin-top: -3px;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #65625D;
+	line-height: 60px;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+
+nav li{
+	display: inline-block;
+	margin-right: -4px;
+	border-right: 3px;
+	line-height: 50px;
+	letter-spacing: 3px;
+}
+
+nav li ul {
+	position: absolute;
+	display: none;
+	width: inherit;
+	letter-spacing: 3px;
+}
+
+
+nav li li{
+	border-right: none;
+}
+
+
+/*SUB Menus */
+nav li ul{
+	position:absolute;
+	display:none;
+	width:inherit;
+}
+nav li:hover ul{
+	display:block;
+}
+nav li ul li{
+	display:block;
+}
+
+.left{
+	width: 40%;
+	display: inline-block;
+	height: 400px;
+	margin: 2px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.right{
+	width:20%;
+	display: inline-block;
+	height: 400px;
+	margin: 2px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 50px;
+	float: right;
+}
+
+.kopfbereich {
+	max-width: 10%;
+	height: auto;
+	border: 2px;
+	margin-top: 2%;
+	text-align: center;
+}
+.seite {
+	max-width: 50%;
+	height: auto;
+	border: 2px;
+	margin-top: 2%;
+	text-align: center;
+}
+.me {
+	max-width: 50%;
+	height: auto;
+	border: 2px;
+	margin-top: 2%;
+	text-align: center;
+
+}
+.subscribe-box{
+	background: #f4f4f4;
+	overflow: hidden;
+	padding: 32px 28px;
+}
+.subscribe-box p{
+	color: #999;
+	line-height: 24px;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+.subscribe-box input{
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 0;
+	box-sizing: border-box;
+	background: #95AF7E;
+	color: #FFF;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	font-style: normal;
+	padding: 12px 20px;
+	border-radius: 0;
+	margin-top: 0;
+}
+
+.signup{
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 0;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	color: #000000;
+
+}
+.subscribe-box{
+	float:; right;
+	width: 50%;
+}
+.container{
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+p{
+	display: block;
+	-webkit-margin-before:1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+p{
+	font-size: 14px;
+	font-height: 24px;
+	font-family: "Arial", sans-serif;
+}
