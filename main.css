@@ -4,20 +4,102 @@ head{
 	line-height:1.5;
 	color:#545454;
 }
+
 h1, h2, h3{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	line-height:1.5;
 	color:#545454;
 }
-.subscribe-box h4{
-	text-transform: uppercase;
-	color: #333;
-	font-size: 16px;
-	letter-spacing: 1px;
-	font-weight: 700;
-	margin-top: -3px;
+
+h1, h2, h3, h4, h5, h6, 
+.post-entry blockquote p, .entry-content blockquote p, 
+.more-link, .by, .item-related 
+span.date, .side-pop-content span.date, #top-search input{
+	font-family: "Crimson Text"; sans-serif,
+	Arial;
 }
+
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	color: #4C4A47;
+}
+
+#wrapper {
+	width: 1160px;
+	margin: 0 auto;
+	background-color: #fff; 
+	box-shadow: 0 0 5px 5px rgba(200,200,200,.05);
+    border-radius: 10px;
+    margin-top: 30px;;
+}
+
+a{
+	color: #95AF7E;
+	text-decoration: none;
+}
+
+p{
+	display: block;
+	-webkit-margin-before:1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-size: 14px;
+	font-height: 24px;
+	font-family: "Arial", sans-serif;
+}
+
+.post-header{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.post header h2 a, .post-header h1 {
+	font-size:28px;
+	color: #000;
+}
+
+.post-entry p, .post-entry hr {
+	margin-bottom: 20px;
+}
+
+.post-header 
+.cat a{
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0 5px 0 4px;
+}
+
+.grid-item
+.post-header h2
+a{ 
+	font-size: 17px;
+	color: #000;
+	font-weight: normal;
+	 }
+
+.grid-item
+.post-header h1
+a {
+	color: #000;
+}
+
+.date {
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	font-style: italic;
+	color: #999;
+}
+
+/* Navigation */
 
 nav a{
 	text-decoration: none;
@@ -59,6 +141,7 @@ nav li ul{
 	border-top: none;
 	border-color: #e5e5e5;
 	border-bottom: 1px solid;
+	margin: 0;
 }
 
 nav li:hover ul{
@@ -67,6 +150,7 @@ nav li:hover ul{
 nav li ul li{
 	display:block;
 }
+
 
 .left{
 	width: 40%;
@@ -77,10 +161,11 @@ nav li ul li{
 	margin: 0 auto;
 	margin-top: 50px;
 }
+
 .right{
-	width:20%;
+	width:1080;
 	display: inline-block;
-	height: 400px;
+	height: 1522;
 	margin: 2px;
 	padding: 15px;
 	margin: 0 auto;
@@ -95,6 +180,7 @@ nav li ul li{
 	margin-top: 2%;
 	text-align: center;
 }
+
 .me {
 	max-width: 50%;
 	height: auto;
@@ -103,10 +189,21 @@ nav li ul li{
 	text-align: center;
 
 }
+
+/* Subscribe Box */
+
+.subscribe-box h4{
+	text-transform: uppercase;
+	color: #333;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin-top: -3px;
+}
 .subscribe-box{
 	background: #f4f4f4;
 	overflow: hidden;
-	padding: 32px 28px;
+	padding: 28px 28px 26px;
 }
 .subscribe-box p{
 	color: #999;
@@ -132,8 +229,10 @@ nav li ul li{
 .subscribe-box input.email{
 	background: #FFFFFF;
 	color: #95AF7E;
+	float: left;
+	width: 75%;
 }
- 
+
 .signup{
 	width: 100%;
 	margin-left: 0;
@@ -144,35 +243,41 @@ nav li ul li{
 
 }
 .subscribe-box{
-	float:; right;
+	width: 95%;
+}
+.subscribe-box-inner {
 	width: 50%;
+	margin: auto;
+	float: left;
 }
+
+.subscribe-box .submit-button{
+	float: left;
+	width: auto;
+}
+
+.subscribe-box .submit-button:hover {
+	background-color: #000;
+	cursor: pointer;
+}
+
+
+/* 3 Bilder nach Navigation */
 .container{
-	float: none;
-	width: 100%;
-	text-align: center;
+		float: none;
+		width: 100%;
+		text-align: center;
 }
+
 .bild{
 	flex-direction: row;
 }
-p{
-	display: block;
-	-webkit-margin-before:1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-}
-p{
-	font-size: 14px;
-	font-height: 24px;
-	font-family: "Arial", sans-serif;
-}
 
-.row, header {
+.row {
 	display: flex;
 }
 .column {
-	flex: 33.33%;
+	flex-basis: 33.33%;
 	padding: 5px;
 }
 .column img {
@@ -180,13 +285,117 @@ p{
 	height: 510px;
 	object-fit: cover;
 }
-
-* {
-	box-sizing: border-box;
+.post-header h2 a {
+	color: #000;
+	font-size: 28px;
 }
+
+/* Overlay pictures top */
+.feat-inner h2 a{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+.feat-overlay {
+	position: relative;
+	bottom: 0;
+	width: auto;
+	background-color: rgba(0,0,0, 0.4);
+	transition: .38s;
+}
+.feat-inner .cat a:first-of-type {
+	margin-left: 0;
+}
+.feat-inner .cat a {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	margin: 0 5px 4px;
+	text-align: center;
+}
+
+/* Body */
 
 .Hauptteil {
 	display: flex;
 	height: 200px;
 	align-items: center;
+	background-color: #F7F7F3;
+}
+
+.m-teaserlist {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.m-teaserlist__item {
+	flex-basis: 33%;
+}
+
+a.post-header h2 a, .post-header h1 {
+	font-size: 28px;
+	color: #000;
+}
+
+.post-img {
+	margin-bottom: 22px;
+	text-align: center;
+}
+.post-entry p, .post-entry hr {
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Angaben Autor */
+.meta-text {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #999;
+	margin-right: 3px;
+	letter-spacing: 1px;
+}
+
+.by {
+	font-size: 13px;
+	font-style: italic;
+	color: #999;
+	margin-right: 1px;
+}
+
+/* Instagram Footer */
+.row-footer {
+	display: flex;
+}
+
+.column-footer {
+	flex-basis: 16.67%;
+}
+
+.row-footer img {
+	width: 193px;
+	height: 193px;
+	object-fit: cover;
+}
+
+.row-footer img:hover{
+	opacity:.75;
+}
+
+footer .instagram-title {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	transform: -50%, -50%;
+	padding: 18px 20px;
+	z-index: 999;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
 }
