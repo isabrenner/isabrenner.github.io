@@ -305,6 +305,7 @@ nav li ul li{
 	float: none;
 	width: 100%;
 	text-align: center;
+	margin: auto;
 }
 
 .subscribe-box input.email-seite{
@@ -313,10 +314,11 @@ nav li ul li{
 	width: 100%;
 }
 
-.subscribe-box-inner-seite 
-{
+.subscribe-box input.email-seite{
+	background: #FFFFFF;
+	color: #95AF7E;
+	float: none;
 	width: 100%;
-	margin: auto;
 }
 
 
@@ -454,6 +456,31 @@ a img
 
 }
 
+/* Abschnitt nach Hauptartikel (Datum, social pins) */
+
+
+.meta-info
+{
+	float: left;
+}
+
+.meta-text 
+{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #999;
+	margin-right: 3px;
+	letter-spacing: 1px;
+}
+
+.meta-comments 
+{
+	float: right;
+	margin-left: 20px;
+	letter-spacing: 1px;
+	margin-right: 10px;
+}
 /* older posts */
 
 .pagination.pa
@@ -488,6 +515,18 @@ gi-grid
 	background: #fff;
 	font-size: 11px;
 	font-weight: 400;
+	position: absolute;
+	top: -1px;
+	left: 0;
+	display: table;
+	overflow: hidden;
+	width: 100%;
+	border-bottom: none;
+	text-align: center;
+	white-space: nowrap;
+	transform: translateY(-50%);
+	margin-top: 0;
+	margin-bottom: 15px;
 	}
 
 .widget:before 
@@ -533,6 +572,29 @@ gi-grid
 	letter-spacing: 2px;
 	background: rgba(255,255,255,1);
 	display: inline-block;
+}
+
+/* Latest Posts */
+.side-pop.list
+.side-pop-img
+{
+	float: left;
+	max-width: 85px;
+	margin-right: 15px;
+	margin-bottom: 0;
+}
+
+.side-pop.list
+.side-pop-content
+{
+	text-align: left;
+	overflow: hidden;
+}
+
+.side-pop.list
+{
+	margin-bottom: 20px;
+	overflow: hidden;
 }
 
 /* Angaben Autor */
