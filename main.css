@@ -398,11 +398,46 @@ a.post-header h2 a, .post-header h1 {
 	height: 460px;
 	object-fit: cover;
 }
+
+
 .post-entry p, .post-entry hr {
 	margin-bottom: 20px;
 	font-size: 14px;
 	line-height: 24px;
 	font-family: "Source Sans Pro", sans-serif;
+}
+
+.sp-grid .post
+{
+	margin-bottom: 40px;
+}
+
+.post-img img {
+	vertical-align: middle;
+	width: 350;
+	height: 460;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+a img
+{
+	border: none;
+}
+
+/* older posts */
+
+.pagination.pa
+gi-grid
+{
+	margin-top: 20px;
+}
+
+.pagination
+{
+	overflow: hidden;
+	margin-bottom: 25px;
 }
 
 /*Section */
@@ -417,6 +452,34 @@ a.post-header h2 a, .post-header h1 {
 	margin-bottom: 40px;
 	box-sizing: border-box;
 }
+
+.widget-title {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #000;
+	background: #fff;
+	font-size: 11px;
+	font-weight: 400;
+	}
+
+.widget:before 
+.widget:after
+{
+    content: '';
+    display: table;
+}
+
+.promo-item {
+	display: table;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	box-sizing: border-box;
+	padding: 14px;
+	position: relative;
+}
+
 
 .promo-item a{
 	position: absolute;
@@ -440,7 +503,7 @@ a.post-header h2 a, .post-header h1 {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	background: rgba(225,225,255,1);
+	background: rgba(255,255,255,1);
 	display: inline-block;
 }
 
