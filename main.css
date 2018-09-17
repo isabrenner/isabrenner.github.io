@@ -298,6 +298,27 @@ nav li ul li{
 	cursor: pointer;
 }
 
+/* subscribe box site */
+
+.subscribe-box-inner-seite 
+{
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.subscribe-box input.email-seite{
+	background: #FFFFFF;
+	color: #95AF7E;
+	width: 100%;
+}
+
+.subscribe-box-inner-seite 
+{
+	width: 100%;
+	margin: auto;
+}
+
 
 /* 3 Bilder nach Navigation */
 .container{
@@ -418,12 +439,19 @@ a.post-header h2 a, .post-header h1 {
 	height: 460;
 	max-width: 100%;
 	height: auto;
-	object-fit: cover;
 }
+
+
 
 a img
 {
 	border: none;
+}
+
+.fab
+{
+	color: #a5a5a5;
+
 }
 
 /* older posts */
