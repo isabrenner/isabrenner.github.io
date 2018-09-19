@@ -300,27 +300,46 @@ nav li ul li{
 
 /* subscribe box site */
 
-.subscribe-box-inner-seite 
+.section
+.subscribe-box
+{
+	padding: 32px 28px;
+}
+
+.section
+.subscribe-text
 {
 	float: none;
 	width: 100%;
 	text-align: center;
-	margin: auto;
 }
 
-.subscribe-box input.email-seite{
-	background: #FFFFFF;
-	color: #95AF7E;
-	width: 100%;
-}
-
-.subscribe-box input.email-seite{
-	background: #FFFFFF;
-	color: #95AF7E;
+.section
+.subscribe-form
+{
 	float: none;
 	width: 100%;
+	text-align: center;
 }
 
+.section
+.subscribe-box
+input
+{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 12px;
+}
+
+.section .subscribe-box input[type=submit] {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.section
+.subscribe-box {
+	width: auto;
+}
 
 /* 3 Bilder nach Navigation */
 .container{
