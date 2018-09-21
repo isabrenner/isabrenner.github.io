@@ -593,6 +593,39 @@ gi-grid
 	display: inline-block;
 }
 
+/* 3 Bilder Section */
+
+.widget-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    background: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: none;
+    text-align: center;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.side-pop.list {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.side-pop.list:last-child {
+	margin-bottom: 0;
+}
+
+
 /* Latest Posts */
 .side-pop.list
 .side-pop-img
